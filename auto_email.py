@@ -9,8 +9,6 @@ def send_email(sender_email, secret_password, receiver_email, message):
     server.sendmail(sender_email, to_addrs=receiver_email, msg=message)
 
 
-
-
-send_email('dhruvkarandikar124@gmail.com', '', 'ncefgtfvkhlssvtmfp@ckptr.com', 'Test Email')
+send_email()
 
 
